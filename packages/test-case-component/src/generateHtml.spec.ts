@@ -8,6 +8,10 @@ async function generateHtml(...args: Parameters<typeof unformettedFunc>) {
     parser: "babel",
   });
 }
+g
+// uses mocha for most tests
+// okay to stick with Jest if needed
+//   cheatsheet might use Jest?
 
 describe("generateHtml", () => {
   it("should select whole line", async () => {
