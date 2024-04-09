@@ -52,6 +52,7 @@ const nextConfig = {
   },
   transpilePackages: references,
   reactStrictMode: true,
+  output: "export",
 };
 
 export default withMDX(nextConfig);
