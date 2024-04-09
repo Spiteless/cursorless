@@ -6,9 +6,8 @@ import { generateHtml, SelectionAnchor } from "./generateHtml";
 
 const fixturesDir = path.join(
   "../",
-  "cursorless-vscode-e2e",
-  "src",
-  "suite",
+  "../",
+  "data",
   "fixtures",
   "recorded",
 );
